@@ -1,0 +1,78 @@
+version: '3.2'
+
+services:
+    # Network Tester
+  bob1:
+    build:
+        context: containers/bob/
+    volumes:
+        - ./packet-data:/pdata
+    networks: 
+        - packet-gen
+    environment:
+        DATA_GENERATIONS_MINUTES: ${DATA_GENERATIONS_MINUTES}
+        AGENT_NAME: Bob1
+  bob2:
+    build:
+        context: containers/bob/
+    volumes:
+        - ./packet-data:/pdata
+    networks: 
+        - packet-gen
+    environment:
+        DATA_GENERATIONS_MINUTES: ${DATA_GENERATIONS_MINUTES}
+        AGENT_NAME: Bob2
+  bob3:
+    build:
+        context: containers/bob/
+    volumes:
+        - ./packet-data:/pdata
+    networks: 
+        - packet-gen
+    environment:
+        DATA_GENERATIONS_MINUTES: ${DATA_GENERATIONS_MINUTES}
+        AGENT_NAME: Bob3
+  bob4:
+    build:
+        context: containers/bob/
+    volumes:
+        - ./packet-data:/pdata
+    networks: 
+        - packet-gen
+    environment:
+        DATA_GENERATIONS_MINUTES: ${DATA_GENERATIONS_MINUTES}
+        AGENT_NAME: Bob4
+  bob5:
+    build:
+        context: containers/bob/
+    volumes:
+        - ./packet-data:/pdata
+    networks: 
+        - packet-gen
+    environment:
+        DATA_GENERATIONS_MINUTES: ${DATA_GENERATIONS_MINUTES}
+        AGENT_NAME: Bob5
+  chuck:
+    build:
+        context: containers/chuck/
+    volumes:
+        - ./packet-data:/pdata
+    networks: 
+        - packet-gen
+    environment:
+        DATA_GENERATIONS_MINUTES: ${DATA_GENERATIONS_MINUTES}
+        AGENT_NAME: Chuck
+  charly:
+    build:
+        context: containers/charly/
+    volumes:
+        - ./packet-data:/pdata
+    networks: 
+        - packet-gen
+    environment:
+        DATA_GENERATIONS_MINUTES: ${DATA_GENERATIONS_MINUTES}
+        AGENT_NAME: charly
+
+networks:
+  packet-gen:
+    driver: bridge

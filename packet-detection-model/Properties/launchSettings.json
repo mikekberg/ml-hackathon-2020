@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "packet-detection-model": {
+      "commandName": "Project",
+      "commandLineArgs": "-a trainsummarymodel --dataview .\\SummaryData.bin --model SummaryModel.zip"
+    }
+  }
+}
