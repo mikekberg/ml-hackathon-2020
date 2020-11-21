@@ -4,6 +4,15 @@ Full Video Explaining the the approach can be found here:
 
 https://www.youtube.com/watch?v=c-IhpiQPVfA&ab_channel=MikeBerg
 
+The ML.NET Hackahton Kickoff Video can be found here:
+https://www.youtube.com/watch?v=CoRcBV_y5E0&ab_channel=TheVirtualMLNETCommunityConference
+
+A Video of all of the submissions can be found here:
+https://www.youtube.com/watch?v=I3tpA9t5e5w&ab_channel=TheVirtualMLNETCommunityConference
+
+ML.NET Hackathon Repo is here:
+https://github.com/virtualmlnet/hackathon-2020
+
 
 ## How to run the solution
 
