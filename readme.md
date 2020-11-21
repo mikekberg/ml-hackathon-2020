@@ -15,7 +15,7 @@ import data of your own using a tool like tcpdump or wireshark on windows. This 
 {Name}.{Ip}.{U|M}.cap   (Exmaple: 'Bob1.192-168-1-3.U.cap')
 
 **Name**: Name of the agent. This can be anything its not used by the system and just helpful to keep track of the files
-***Ip**: Inernal IP of the agent. **With dots replaced with dashes**
+**Ip**: Inernal IP of the agent. **With dots replaced with dashes**
 **U | M**: If the agent is Malicous then **M** else **U** for normal agent
 
 
