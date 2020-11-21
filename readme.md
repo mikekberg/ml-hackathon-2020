@@ -4,16 +4,6 @@ Full Video Explaining the the approach can be found here:
 
 https://www.youtube.com/watch?v=c-IhpiQPVfA&ab_channel=MikeBerg
 
-The ML.NET Hackahton Kickoff Video can be found here:
-https://www.youtube.com/watch?v=CoRcBV_y5E0&ab_channel=TheVirtualMLNETCommunityConference
-
-A Video of all of the submissions can be found here:
-https://www.youtube.com/watch?v=I3tpA9t5e5w&ab_channel=TheVirtualMLNETCommunityConference
-
-ML.NET Hackathon Repo is here:
-https://github.com/virtualmlnet/hackathon-2020
-
-
 ## How to run the solution
 
 ### Step 1 - Generate Packet Data
@@ -53,4 +43,22 @@ Now that the model is trained you can run it on new network data, to run on new 
 
 `packet-detection-model.exe -a detectmalips --dataDir .\training-data\ --portsFile .\common-ports.csv --model .\SummaryModel.zip`
 
+
+# Other References
+
+The ML.NET Hackahton Kickoff Video can be found here:
+
+https://www.youtube.com/watch?v=CoRcBV_y5E0&ab_channel=TheVirtualMLNETCommunityConference
+
+A Video of all of the submissions can be found here:
+
+https://www.youtube.com/watch?v=I3tpA9t5e5w&ab_channel=TheVirtualMLNETCommunityConference
+
+ML.NET Hackathon Repo is here:
+
+https://github.com/virtualmlnet/hackathon-2020
+
+flightsim (referenced in video):
+
+https://github.com/alphasoc/flightsim
 
